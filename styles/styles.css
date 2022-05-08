@@ -53,5 +53,56 @@ li:nth-of-type(5n) {
   padding-left: 2rem;
   width: 41%;
   line-height: 1.5em;
+}
 
+.products {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.product{
+  width: 24%;
+  margin: 2rem;
+  background-color: #d7a86d;
+  padding: 0.25em;
+  border-radius: 10px;
+}
+
+.product-image {
+  margin:0.5rem;
+  border: 5px solid #fff;
+}
+
+.prod-name {
+  color: #ffffff;
+  text-decoration: underline 2px;
+}
+
+footer {
+  background-color: #261408;
+  color: #fff;
+  margin-top: 2em;
+  border-radius: 10px;
+}
+
+.footer-col {
+  display: inline;
+  padding: 1em;
+  width: 25%;
+}
+
+.col-1 {
+  display: inline-block;
+}
+
+.col-2 {
+  display: inline-block;
+}
+
+.col-3 {
+  display: inline-block;
 }

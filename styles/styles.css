@@ -11,3 +11,24 @@ body {
   color: #d7a86d;
   text-shadow: 3px 3px 4px black;
 }
+
+nav {
+  color: #ffffff;
+  background-color: #261408;
+  padding: 0.5px;
+  border-radius: 15px;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+}
+
+li{
+  padding-right: 18%;
+}
+
+li:nth-of-type(5n) {
+  padding-right: 0;
+}
+

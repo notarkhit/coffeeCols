@@ -1,0 +1,13 @@
+*{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  background-image: url("../imgs/background.gif");
+  padding: 0 10% 0 10%;
+}
+
+#logo {
+  color: #d7a86d;
+  text-shadow: 3px 3px 4px black;
+}
